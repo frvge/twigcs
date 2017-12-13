@@ -56,6 +56,11 @@ You can create a class implementing `RulesetInterface` and supply it as a `--rul
 twigcs lint /path/to/views --ruleset \MyApp\TwigCsRuleset
 ```
 
+Example:
+```bash
+twigcs lint /path/to/views --ruleset "Allocine\Twigcs\Ruleset\Trivago"
+```
+
 *Note:* `twigcs` needs to be used via composer and the ruleset class must be reachable via composer's autoloader for this feature to work.
 
 ### Coming features
