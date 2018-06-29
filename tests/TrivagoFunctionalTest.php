@@ -5,13 +5,14 @@ namespace Allocine\Twigcs\Test;
 use Allocine\Twigcs\Lexer;
 use Allocine\Twigcs\Ruleset\Trivago;
 use Allocine\Twigcs\Validator\Validator;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Twigcs' main functional tests based on trivago twig styleguide
  *
  * @author Frank van Gemeren <frank.vangemeren@trivago.com>
  */
-class TrivagoFunctionalTest extends \PHPUnit_Framework_TestCase
+class TrivagoFunctionalTest extends TestCase
 {
     /**
      * @dataProvider getData
